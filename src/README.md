@@ -2,7 +2,7 @@
 - Bootstrap - only css
 - FontAwesome - for icons
 - Google Fonts - nice fonts
-- styled components
+- Styled components
 - React router dom 
     - BrowserRouter
     - Switch - for grouping the routes
