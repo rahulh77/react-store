@@ -4,6 +4,7 @@
   --mainWhite: #c3c3c3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+  --myBlue: #0466c8;
 }
 body {
   font-family: 'Montserrat', sans-serif !important;
@@ -15,9 +16,9 @@ body {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
-.text-blue{
+.text-blue {
   color: var(--mainBlue);
 }
-.text-bright{
+.text-bright {
   color: var(--lightBlue);
 }
