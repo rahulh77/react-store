@@ -2,6 +2,7 @@
   "name": "react-store",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rahulh77.github.io/react-store",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
