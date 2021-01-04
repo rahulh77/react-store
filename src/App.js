@@ -14,14 +14,15 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar />
-
-        <Switch>
-          <Route path='/' exact component={ProductList} />
-          <Route path='/product' component={Product} />
-          <Route path='/details' component={Details} />
-          <Route path='/cart' component={Cart} />
-          <Route component={Default} />
-        </Switch>
+        <div className='content'>
+          <Switch>
+            <Route path='/' exact component={ProductList} />
+            <Route path='/product' component={Product} />
+            <Route path='/details' component={Details} />
+            <Route path='/cart' component={Cart} />
+            <Route component={Default} />
+          </Switch>
+        </div>
       </React.Fragment>
     );
   }
