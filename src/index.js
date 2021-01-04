@@ -7,13 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import { ProductProvider } from './data/context';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ProductProvider>
-      <Router>
-        <App />
-      </Router>
-    </ProductProvider>
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <ProductProvider>
+    <Router>
+      <App />
+    </Router>
+  </ProductProvider>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
