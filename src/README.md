@@ -17,3 +17,5 @@ template literals ``
 {{}}
 : vs =
 inside and above render
+
+proptypes
